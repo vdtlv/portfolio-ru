@@ -1,7 +1,7 @@
 ---
-title: "Referral program update"
+title: "Обновление реферальной программы"
 date: 2023-08-01T00:07:07+07:00
-description: Simple updates which made +30% viral users and -30% of customer acquisition cost.
+description: Простые изменения, которые дали +30% виральных юзеров и −30% CAC.
 image: /images/fm-ref-main.png
 caption:
 categories:
@@ -14,20 +14,20 @@ tags:
 draft: false
 ---
 
-Fitmost is a service for booking sports activities, beauty, and wellness procedures in just couple of clicks. It operates on a subscription model, with one subscription offering access to over 3000+ locations across the whole country.
+Фитмост — сервис для записи на спортивные занятия, бьюти и wellness-процедуры за пару кликов. Сервис работает по подписной модели: одна подписка открывает доступ к более чем 3000+ локаций по всей России.
 
-In early 2023, a hypothesis emerged that the trial period was not beneficial for the business, as the cost of attracting new users was increasing, and the conversion rate to purchasing a subscription was not high enough. Additionally, it was a loophole for fraudsters, as the high subscription cost led to users frequently contacting support after their free trial period ended.
+В начале 2023 года появилась гипотеза, что пробный период не приносит бизнесу ожидаемой пользы: стоимость привлечения новых пользователей росла, а конверсия в покупку подписки оставалась на месте. Кроме того, пробный период создавал возможности для фрода, а из-за высокой стоимости подписки пользователи часто обращались в поддержку после окончания бесплатного периода.
 
 ![image](/images/fm-ref-0.png)
 
-Not a great situation, so my team conducted an A/B test of the trial period, and here's what we found: the trial period had no impact on conversion rates, with users purchasing subscriptions at the same rate, regardless of whether they had access to a trial period or not.
+Ситуация была далеко не идеальной, поэтому наша команда провела A/B-тестирование пробного периода. Мы узнали, что пробный период никак не влиял на конверсию: пользователи покупали подписку с одинаковым успехом независимо от того, был ли им доступен пробный период или нет.
 
 ![image](/images/fm-ref-1.png)
 
-Shocking! It turned out that we could remove the trial period and eliminate all the negative aspects it had. And what we found out: 
-- Users stopped contacting support, as they started paying for subscriptions directly, now this happens intentionally, but without free credits. 
-- Frauds no longer had the opportunity to receive free credits. 
-- The Customer Acquisition Cost (CAC) significantly decreased, freeing up money that needs to be allocated.
+Ваау! Оказалось, что пробный период можно убрать и одновременно устранить связанные с ним негативные последствия. После этого мы увидели следующие изменения:
+- Пользователи перестали обращаться в поддержку по поводу окончания пробного периода и начали осознанно оплачивать подписку напрямую — без использования бесплатных баллов.
+- Фродеры больше не могли получать бесплатные баллы.
+- Стоимость привлечения клиента (CAC) существенно снизилась, высвободив бюджет для дальнейшего распределения.
 
 ### Solution
 
