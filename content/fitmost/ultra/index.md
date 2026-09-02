@@ -1,7 +1,7 @@
 ---
-title: "Premium in-app features"
+title: "Премиальные раздел в фитмосте"
 date: 2025-09-01T00:07:07+07:00
-description: Fitmost Ultra for the most valuable users to make their experience even better
+description: Ультра для самых активных юзеров — чтобы сделать их опыт в фитмосте еще приятнее
 image: /images/fm-u.png
 caption:
 categories:
@@ -14,55 +14,57 @@ tags:
 draft: false
 ---
 
-**Fitmost has always been a profitable, but not inexpensive service.** Prices are set in *points* instead of regular currency, and the relatively high cost creates a strong entry barrier. This pricing model automatically evokes a feeling of exclusivity and premium quality — something we had never explicitly highlighted before. *To be honest, the main communication focused on accessibility and convenience rather than status.*
+**Fitmost всегда был прибыльным, но недешёвым сервисом.** Цены указаны в *баллах*, а не в обычной валюте, и относительно высокая стоимость создаёт сильный барьер входа. Такая модель ценообразования сама по себе вызывает ощущение эксклюзивности и премиального качества — то, на чём мы раньше никогда не делали акцент явно. *Если честно, основная коммуникация была сосредоточена на доступности и удобстве, а не на статусе.*
 
-This became particularly important when the country's largest banks (Sber and Tsifra) required the creation of a premium section in the app as a condition for including Fitmost as a VIP privilege for their loyal customers.
+Показать премиальнось стало особенно важным, когда крупнейшие банки страны (Сбер, ГПБ и т.п.) запросили премиальный раздел в приложении как условие включения фитмоста в список привилегий для своих лояльных клиентов.
 
-Soon after, I received a message from our CEO: 
-“We need to make it cool! Users should feel the premium experience when they open the app.”
+После этого я получил сообщение от нашей CEO:
+«Нужно сделать это круто! Пользователи должны чувствовать премиальный опыт, когда открывают приложение».
 
-That was the starting point for developing the concept for a new product tier.
-
-***
-
-### Concept and Goals
-
-![Most types of concepts](/images/fm-u-0.png)
-
-Parallel to this, I clarified with the product team what business outcomes we expected from the update — a **+10% increase in ARPPU**. Once the key metric was defined, I used an iterative approach: broke the project down into smaller tasks that could be distributed among the team. This is how work on **Fitmost Ultra** began.
-
-![Main tasks and goals](/images/fm-u-1.png)
+Это стало отправной точкой для разработки концепции нового уровня продукта.
 
 ***
 
-### Visual Direction
+### Концепция и цели
 
-The main transformations were focused on the **UI for locations and reservations**, since these screens most directly shape user perception of value. 
+![Основные концепций](/images/fm-u-0.png)
 
-- The list of places became the visual centerpiece. To emphasize that ultra-places are special, I introduced **1:1 cover photos**, each with an **individual accent color** derived automatically from the average tones of the image. *Chat GPT suggests to add something like “This emphasized uniqueness and improved recognition by 20% in testing.” – we didn’t measure that this way because the impact of the new view is obvious*
-- The **ultra-location screen** now stands out through a dedicated background system and large imagery, complemented by the place’s custom svg logo.
+Параллельно с этим я уточнил у продактов, чего мы ожидаем от обновления — **рост ARPPU на +10%**. Ключевую метрику определили, я пошел дальше и разбил проект на более мелкие задачи, которые можно было распределить между командой. Так началась работа над **фитмост Ультра**.
 
-![Ultra card arcitecture](/images/fm-u-2.png)
+![Задачи и цели](/images/fm-u-1.png)
 
-The background for each ultra-location is **generated dynamically**, ensuring the card visually dominates other listings.  
+***
 
-![List of places](/images/fm-u-3.png)
+### Визуал Ультры
 
-The **content colors** are also calculated automatically to maintain contrast and readability. This allowed consistency across thousands of photos without manual art direction.
+Основные изменения были сосредоточены на **UI карточек локаций и бронирований**, поскольку именно эти экраны напрямую формируют восприятие ценности пользователем.
 
-![Ultra-place page](/images/fm-u-4.png)
+- Список мест стал визуальным центром. Чтобы подчеркнуть, что ультра-места особенные, я ввёл новые **обложки формата 1:1**, каждая с **индивидуальным акцентным цветом**, автоматически вычисляемым по средним тонам изображения. *ChatGPT предлагал добавить что-то вроде «Это подчеркнуло уникальность и повысило узнаваемость на 20% в тестировании» — но мы так не измеряли, потому что эффект от нового вида очевиден и без этого. Спустя пару месяцев соотношение бронирований в ультра-места vs обычные было 2 к 1*
+- **Экран ультра-места** теперь выделяется благодаря отдельной системе фонов и крупным фото и собственным svg-логотипом.
 
-Ultra users can **switch between regular and Ultra modes** of the app — changing not just the visuals (locations, class cards, splash screen, app icon), but also unlocking a **filter for Ultra-only places**. This reinforces a sense of belonging to an exclusive tier achieved through activity rather than money.
+![Архитектура ультра-карточки](/images/fm-u-2.png)
 
-![Ultra-user profile page](/images/fm-u-5.png)
+Фон для каждой ультра-локации **генерируется динамически**, благодаря чему карточка визуально доминирует над остальными в списке.
 
-![Ultra-places filter](/images/fm-u-6.png)
+![Список мест](/images/fm-u-3.png)
 
-![Regular event card](/images/fm-u-7.png)
+**Цвета контента** также рассчитываются автоматически для поддержания контрастности и читаемости. Это обеспечило единообразие на сотнях мест без ручного редактирования.
 
-![Ultra-event card](/images/fm-u-8.png)
+![Страница ультра-места](/images/fm-u-4.png)
 
-### Results
+Ультра-пользователи могут **переключаться между обычным и Ультра-режимами** приложения — меняются не только визуальные элементы (локации, карточки классов, сплэш-экран, иконка приложения), но и открывается **фильтр только по ультра-местам**. Это усиливает ощущение принадлежности к эксклюзивному уровню, достигнутому за счёт активности, а не денег.
 
-- **Fitmost became a partner** in the loyalty programs of several major Russian banks. This expanded our premium user base.
-- **ARPPU** did not show statistical significance across the entire cohort, but **notable uplift appeared within the Ultra-user segment**.
+![Страница профиля ультра-пользователя](/images/fm-u-5.png)
+
+![Фильтр ультра-мест](/images/fm-u-6.png)
+
+![Обычная карточка события](/images/fm-u-7.png)
+
+![Ультра-карточка события](/images/fm-u-8.png)
+
+### Результаты
+
+- **Fitmost стал партнёром** программ лояльности нескольких крупных российских банков. Это расширило нашу премиальную пользовательскую базу.
+- Общее число бронирований в ультра-студиях оказалось **в 2 раза больше**, чем в обычных местах.
+- Средний чек в ультра-студиях оказался **на 30% выше**, чем в обычных местах.
+- **ARPPU** не показал статистически значимого роста по всей когорте, но **прирост появился внутри сегмента ультра-пользователей**.
