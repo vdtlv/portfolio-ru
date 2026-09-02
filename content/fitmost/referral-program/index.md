@@ -29,24 +29,24 @@ draft: false
 - Фродеры больше не могли получать бесплатные баллы.
 - Стоимость привлечения клиента (CAC) существенно снизилась, высвободив бюджет для дальнейшего распределения.
 
-### Solution
+### Решение
 
-We have several sources of new users: organic traffic, paid acquisition, and corporate clients. The last option is the referral program, which had become dull due to its monotony. The discount for the first month for a friend only benefits the friend, not the referrer, and the invite link can expire, leaving the friend without bonuses. Despite the minuses of such an implementation, analytics shows good results that can be improved.
+У фитмоста есть несколько источников привлечения новых пользователей: органический трафик, платное привлечение и корпоративные клиенты. Еще один – реферальная программа, но механика однообразная и скучная. Скидка на первый месяц для друга приносила пользу только приглашённому пользователю, а не тому, кто его пригласил. Кроме того, пригласительная ссылка могла не сработать – так друг оставался без бонуса. Это можно улучшить.
 
-From Amplitude and support feedback, we understood what to improve:
+На основе данных Amplitude и обратной связи от службы поддержки я определил несколько вариантов для улучшения:
 
-- Replace the invite link with a promo code, so there's no chance of losing the invitation and being left without a link.
+- Заменить пригласительную ссылку промокодом, чтобы приглашение нельзя было потерять и пользователь не остался без бонуса.
 
-- Increase the touchpoints between the user and the referral program.
+- Увеличить количество точек контакта пользователя с реферальной программой.
 
-- New conditions: give 15 points to the user for each friend who signs up for Fithmost with a discount, applied after using a personal promo code. We leave the freed-up CAC.
+- Изменить условия: начислять пользователю 15 баллов за каждого друга, который зарегистрировался в Fitmost со скидкой после применения персонального промокода. Высвободившийся бюджет CAC оставить в программе.
 
-After the release, the conversion rate in the referral program grew by **100%+** Such a great result was achieved thanks to advertising, but the new conditions still show great results.
+После релиза конверсия в реферальной программе выросла более чем на **100%**. Такой значительный результат был достигнут благодаря рекламному продвижению, однако новые условия также показывают хорошие результаты.
 
 ![image](/images/fm-ref-2.png)
 
-To consolidate the result and let the referral program float freely, we can mention it in places where users interact most frequently, such as the class page and the success booking screen.
+Чтобы закрепить результат и позволить реферальной программе работать самостоятельно, я добавил информацию о ней в местах наиболее частого взаимодействия пользователей с продуктом: на странице занятия и на экране успешного бронирования.
 
 ![image](/images/fm-ref-3.png)
 
-This gives a plus to promo code sharing (30%), and activation rates are also growing. The new referral program has minimally changed externally, but the new conditions and touchpoints on the user's path have given a significant boost to this source of new users.
+Это увеличило долю пользователей, делящихся промокодом на 30%, а показатели активации также показали рост. Внешне новая реферальная программа изменилась минимально, но обновлённые условия и дополнительные точки контакта на пользовательском пути дали этому источнику новых пользователей значительный рост.
