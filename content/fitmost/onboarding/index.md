@@ -1,7 +1,7 @@
 ---
-title: "The way we emphasize the advantages of service"
+title: "Как мы меняли онбординг"
 date: 2024-12-01T00:07:07+07:00
-description: Boosting conversions with onboarding made with Lottie, another onboarding and in-app stories
+description: Делали Lottie анимации, варианты онбординга и сторисы, которые ничего не дали
 image: /images/fm-onb.png
 caption:
 categories:
@@ -18,74 +18,77 @@ tags:
 draft: false
 ---
 
-## The Challenge
-Fitmost is a subscription-based service that offers access to gyms, studios, and wellness providers through a points system. However, this model confused users — they didn’t understand that the subscription was actually a flexible deposit system. This friction resulted in low conversion rates from registration to the first purchase.
+## Проблема
 
-Our goal was to clarify the value proposition early in the user journey and increase the conversion rate from signup to paid usage.
+Фитмост — сервис для записи на спортивные занятия, бьюти и wellness-процедуры за пару кликов. Оплата баллами, а не привычными деньгами: такая система путала пользователей — они не понимали, что подписка на самом деле является гибкой депозитной системой. Этот момент являлся причиной низкой конверсии из регистрации в первую покупку.
 
-## User Research Insights
-In early 2023, our product team conducted in-depth audience research to identify friction points and segment users. From qualitative interviews, we uncovered that users:
+Целью было прояснить ценностное предложение на ранних этапах пользовательского пути и повысить конверсию из регистрации в первую покупку.
+ 
+## Инсайты из исследований
 
-- Struggled to understand the point system behind the subscription.
-- Didn’t see clear financial advantages over paying for individual sessions directly.
-- Missed the benefits of using Fitmost for booking — flexibility, variety, convenience.
+В начале 2023 года продуктовая команда провела глубинное исследование аудитории, чтобы выявить основные боли и сегментировать пользователей. Из качественных интервью мы выяснили, что пользователи:
 
-Although these benefits were mentioned in ads, they weren’t effectively communicated inside the app — particularly during the onboarding experience.
+- испытывали сложности с пониманием балльной системы подписки;
+- не видели явных финансовых преимуществ по сравнению с оплатой отдельных занятий напрямую;
+- упускали преимущества использования Fitmost для бронирования — гибкость, разнообразие, удобство.
+
+Все эти пункты мы подсвечиваем в рекламе, но не рассказываем про них в полной мере. Когда пользователь скачал приложение, мы проводим его через регистрацию и оставляем его наедине с доступными тарифами, а надо показать онбординг.
 
 ![image](/images/fm-onb-0.png)
 
-## Solution 1: Reimagining Onboarding
-Despite a high download-to-registration conversion rate, users were often left confused after signing up. The app took them straight to pricing plans without properly explaining the value.
+## Решение 1: Переосмысление онбординга
 
-We hypothesized that an onboarding flow could clarify the model and highlight Fitmost’s advantages, but we had two constraints:
+Несмотря на приемлимую конверсию из скачивания в успешную регистрацию (80%), пользователи часто оставались в замешательстве после регистрации.
 
-**Risk to conversion**: A poor onboarding experience might reduce registrations.
-**Engagement**: Users tend to skip onboarding screens quickly.
+Я предположил, что онбординг мог бы прояснить модель и подчеркнуть преимущества фитмоста, но у нас было два ограничения:
 
-### First Onboarding Version
+**Риск для конверсии**: неудачный онбординг мог снизить число регистраций.
+**Вовлечённость**: пользователи склонны быстро пролистывать экраны онбординга и ничего не читать.
 
-We created a short, visually striking video to explain the concept.
+### Первая версия онбординга
+
+Сделал короткое, визуально яркое видео, объясняющее концепцию.
 
 {{< media/video src="/images/onboarding-1.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" >}}
 
-It was eye-catching but lacked depth. We skipped user validation to launch a fast A/B test and see how onboarding affected metrics.
+Оно привлекало внимание, но не раскрывало суть глубоко. Мы пропустили этап пользовательской валидации, чтобы быстро запустить A/B-тест и посмотреть, как онбординг влияет на метрики.
 
-*The process of creating this lottie animation and the implementation was extremely interesting: I'll write an article about this journey once!*
+*Процесс создания этой lottie-анимации и её внедрения был чрезвычайно интересным — когда-нибудь напишу об этом отдельно!*
 
 ![process of animation reation](/images/fm-onb-1.png)
 
-#### Result:
+#### Результат:
 
-- No negative impact on registration rate — a positive sign.
-- No statistically significant lift in purchase conversions. Still, this test validated that onboarding could be safely introduced.
+- Конверсию из скачивания в успешную регистрацию не просела и осталась на месте.
+- Не было статистически значимого роста конверсии в покупку. Тем не менее тест подтвердил, что онбординг можно безопасно внедрить.
 
-### Second Onboarding Version
+### Вторая версия онбординга
 
-Based on follow-up user testing, we focused the second version on job stories – specific use cases like “trying new studios nearby” or “training with flexibility.” Slightly highlighted how point system works and its benefits behind ordinary way of booking. 
+По итогам дополнительного пользовательского тестирования я сфокусировал вторую версию на конкретных сценариях использования, вроде «пробовать новое рядом» или «тренироваться когда удобно». Подсветил как работает балльная система и в чём её преимущества перед обычным способом бронирования.
 
 {{< media/video src="/images/onboarding-2.mp4" type="video/mp4" loop="true" muted="true" autoplay="true" controls="false" caption="Second onboarding">}}
 
-We also added a job story block to reinforce the message even after onboarding – a lightweight solution that didn’t require deep development.
+Добавил блок с job story, чтобы закрепить сообщение уже после онбординга, — лёгкое решение, не требующее серьёзной разработки.
 
-## Solution 2: Surfacing Subscription Value Throughout the Experience
+## Решение 2: Подсветка ценности подписки на протяжении всего опыта
 
-Our research showed that users without a subscription rarely visited the home screen. Instead, they explored the **Places tab**, checking out studios and schedules.
+Исследование показало, что пользователи без подписки редко заходили на главный экран. Вместо этого они изучали вкладку **«Места»**, просматривая студии и расписания.
 
-To better understand these flows, we partnered with analysts and used Celonis, a process mining tool, to map user journeys.
+Чтобы лучше понять эти сценарии, привлек аналитиков, которые взяли Celonis для построения карты пользовательских путей.
 
 ![image](/images/fm-onb-2.png)
 
-### Key Finding:
+### Ключевой инсайт:
 
-The majority of new users passed through:
+Большинство новых пользователей проходили через:
 
-- Places tab
-- Activities tab
-- Studio schedules
+- вкладку «Места»
+- вкладку «Активности»
+- расписания студий
 
-This insight helped us decide where to surface messaging about the benefits of a subscription.
+Этот инсайт помог нам определить, где именно размещать сообщения о преимуществах подписки.
 
-We placed contextual reminders and value props on studio and schedule screens, where users were most engaged.
+Мы разместили контекстные напоминания и ценностные посылы на экранах студий и расписаний — там, где пользователи были наиболее вовлечены.
 
 ![image](/images/fm-onb-5.png)
 
@@ -93,5 +96,6 @@ We placed contextual reminders and value props on studio and schedule screens, w
 
 ![image](/images/fm-onb-4.png)
 
-## Outcome & Impact
-Changing and increasing the number of steps in onboarding does not affect conversion to registration. It helps the user understand the benefits of the service, but does not produce a statistically significant increase in conversion to purchase. As mentioning the benefits of subscription in different parts of the app. There is an increase in conversion rates, but it is not enough to claim that the experiment was successful. So... Wait for part 2! 
+## Итоги и результаты
+
+Изменение и увеличение числа шагов в онбординге не влияет на конверсию в регистрацию. Помогает пользователю понять преимущества сервиса, но не даёт статистически значимого роста конверсии в покупку. То же самое с упоминанием преимуществ подписки в разных частях приложения: конверсия немного растёт, но недостаточно, чтобы говорить об успехе эксперимента.
