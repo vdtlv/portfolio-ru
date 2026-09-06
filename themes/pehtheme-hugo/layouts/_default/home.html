@@ -38,8 +38,8 @@
 
  / End feature post  -->
 <section class="block md:flex relative group space-y-4 md:space-x-6 my-24">
-<h2 class=" flex text-2xl md:text-3xl lg:text-5xl font-bold mb-4"><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto">
-  Hi! I'm <!--<span class="me">
+<h2 class=" flex text-2xl md:text-3xl lg:text-3xl font-bold mb-4"><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto">
+  Привет! Я <!--<span class="me">
     <picture>
       <source srcset="/images/vdtlvpic.png" type="image/webp" />
       <img src="/images/vdtlvpic.png" alt="" style="width: 40px;
@@ -47,12 +47,13 @@
     margin-bottom: -8px;
     border-radius: 12px" />
     </picture>
-  </span>--> Slava, product designer with over 5 years of experience in mobile and web products. Working at <span class="fm">
-    <!--<picture>
+  </span>--> Слава, дизайнер продукта с 6-летним опытом. Упрощаю жизнь пользователей в  
+   <!--<span class="fm">
+   <picture>
       <source srcset="/images/fmlogo.png" type="image/webp" />
       <img src="vdtlvpic.png" alt="" />
     </picture>-->
-     Fitmost, also developing pet-projects in my spare time.
+     фитмосте, в свободное время проектирую свои продукты.
 </a></h2>
 </section>
 <!-- Category Post -->
@@ -63,9 +64,9 @@
 
     <div class="flex items-center mb-6">
 
-      <h2 class="text-3xl md:text-4xl font-bold mr-auto">{{ $cat | humanize }}</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">Что сделал в фитмосте<!--{{ $cat | humanize }}--></h2>
 
-      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="{{ printf "/categories/%s" $cat | absURL }}">View All</a>
+      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="{{ printf "/categories/%s" $cat | absURL }}">Больше кейсов</a>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
@@ -88,7 +89,7 @@
 
     <div class="flex items-center mb-6">
 
-      <h2 class="text-3xl md:text-4xl font-bold mr-auto">All cases</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">Все кейсы</h2>
 
     </div>
 

@@ -1,5 +1,5 @@
 ---
-title: "Fitmost"
-description: Fitmost is the largest marketplace with 5000+ places for sports, leisure, and beauty services across more than 100 cities in Russia.
+title: "fitmost"
+description: Фитмост – сервис для бронирования спортивых, бьюти и велнесс услуг в 5000+ мест по всей России.
 draft: false
 ---
